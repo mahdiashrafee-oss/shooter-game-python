@@ -23,7 +23,7 @@ def ran():
 pip = [ran() + 541, ran() + 45, ran() + 90, ran() + 200, ran(), ran()]
 
 def starting(idx):
-    if pip[idx] > 700
+    if pip[idx] > 700:
         pip[idx] = ran()
     else:
         pip[idx] = pip[idx] + 5
@@ -46,7 +46,7 @@ while keep_alive:
         user = user - 20
     elif keys[pygame.K_UP] and tuser > 0:
         tuser = tuser - 2
-    elif keys[pygame.K_DOWN] and tuser < 540
+    elif keys[pygame.K_DOWN] and tuser < 540:
         tuser = tuser + 20
 
 
